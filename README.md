@@ -26,7 +26,11 @@ Or install it yourself as:
   require 'acuitydata'
   client  = AcuityData::Client.new
 
-
+  client.make
+  client.model(make, year = nil)
+  client.year(make, model = nil)
+  client.variant(make, model, year)
+  client.report(make, model, variant, year, mileage)
 ```
 
 ### Endpoints

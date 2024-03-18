@@ -116,9 +116,9 @@ module AcuityData
       end
 
       if params == {}
-        constructed_path
+        constructed_path.gsub(" ", "%20")
       else
-        "#{constructed_path}?#{process_params(params)}"
+        "#{constructed_path}?#{process_params(params)}".gsub(" ", "%20")
       end
     end
 
