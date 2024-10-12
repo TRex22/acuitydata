@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "httparty", "~> 0.22.0"
-  spec.add_dependency "active_attr", "~> 0.16.0"
+  spec.add_dependency "active_attr", "~> 0.17.0"
 
   # Development dependancies
   spec.add_development_dependency "rake", "~> 13.2.1"
@@ -33,5 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "timecop", "~> 0.9.10"
   spec.add_development_dependency "mocha", "~> 2.4.5"
   spec.add_development_dependency "pry", "~> 0.14.2"
-  spec.add_development_dependency "webmock", "~> 3.23.1"
+  spec.add_development_dependency "webmock", "~> 3.24.0"
 end
